@@ -3,17 +3,29 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://192.168.0.100/categories/</loc>
+    <loc>http://www.ruonakoski.fi/posts/hello/</loc>
+    <lastmod>2017-12-11T16:18:44+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.ruonakoski.fi/</loc>
+    <lastmod>2017-12-11T16:18:44+02:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://192.168.0.100/</loc>
+    <loc>http://www.ruonakoski.fi/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://192.168.0.100/tags/</loc>
+    <loc>http://www.ruonakoski.fi/posts/</loc>
+    <lastmod>2017-12-11T16:18:44+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://www.ruonakoski.fi/tags/</loc>
     <priority>0</priority>
   </url>
   

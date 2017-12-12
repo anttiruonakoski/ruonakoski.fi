@@ -1,6 +1,9 @@
-baseURL = "http://192.168.0.100/"
+baseURL = "http://www.ruonakoski.fi/"
 
 
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke"
+languageCode = "FI-fi"
+title = "Antti Ruonakoski"
+theme = "hyde"
+
+[params]
+  themeColor = "theme-base-0b"
