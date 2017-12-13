@@ -7,13 +7,13 @@
         {{ with .Site.Params.description }} {{.}} {{ else }}birder full stack hobbyist geo nerd OSM contributor{{end}}
         </p>
         <p class="contact">
-          <i class="fas fa-envelope-open"></i> aruonakoski@gmail.com  
+          <i class="fas fa-fw fa-envelope-open contact"></i>&nbsp;&nbsp;aruonakoski@gmail.com  
         </p>
         <p class="contact">
-          <i class="fab fa-telegram"></i> to be announced 
+          <i class="fab fa-fw fa-telegram contact"></i>&nbsp;&nbsp;AnttiRuonakoski
         </p>
         <p class="contact">
-          <i class="fab fa-discord"></i> Antti#1110  
+          <i class="fab fa-fw fa-discord contact"></i>&nbsp;&nbsp;Antti#1110  
         </p>
 
       </div>
@@ -24,6 +24,6 @@
       {{- end }}
     </ul>
 
-    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}. All rights reserved. {{end}}</p>
+    <p>{{ with .Site.Params.copyright }}{{.}}{{ else }}&copy; {{ now.Format "2006"}}{{end}}</p>
   </div>
 </div>
