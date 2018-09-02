@@ -4,21 +4,24 @@
 	<img class="sidebar-img" src="/img/oma_2.png" />
         <a href="{{ .Site.BaseURL }}"><h1>{{ .Site.Title }}</h1></a>
         <p class="lead">
-        {{ with .Site.Params.description }} {{.}} {{ else }}birder full stack hobbyist geo nerd OSM contributor{{end}}
+        {{ with .Site.Params.description }} {{.}} {{ else }}{{end}}
         </p>
         <p class="contact">
-          <i class="fas fa-fw fa-envelope-open contact"></i>&nbsp;&nbsp;aruonakoski@gmail.com  
+          <i class="fas fa-fw fa-envelope-open contact"></i>&nbsp;&nbsp;aruonakoski@gmail.com
         </p>
         <p class="contact">
           <i class="fab fa-fw fa-telegram contact"></i>&nbsp;&nbsp;AnttiRuonakoski
         </p>
         <p class="contact">
-          <i class="fab fa-fw fa-discord contact"></i>&nbsp;&nbsp;Antti#1110  
+          <i class="fab fa-fw fa-discord contact"></i>&nbsp;&nbsp;Antti#1110
+        </p>
+        <p class="contact">
+          <i class="fab fa-fw fa-github contact"></i>&nbsp;&nbsp;<a href="https://github.com/anttiruonakoski">anttiruonakoski</a>
         </p>
 
       </div>
     <ul class="sidebar-nav">
-      <li><a href="{{ .Site.BaseURL }}">Home</a> </li>
+      <li><a href="{{ .Site.BaseURL }}"> {{ i18n "home" }} </a> </li>
       {{ range .Site.Menus.main -}}
         <li><a href="{{.URL}}"> {{ .Name }} </a></li>
       {{- end }}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Antti Ruonakoski</title>
+    <link>https://ruonakoski.fi/en/</link>
+    <description>Recent content on Antti Ruonakoski</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>FI-fi</language>
+    <lastBuildDate>Fri, 16 Mar 2018 15:31:02 +0200</lastBuildDate>
+    
+	<atom:link href="https://ruonakoski.fi/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Meanwhile</title>
+      <link>https://ruonakoski.fi/en/posts/meanwhile/</link>
+      <pubDate>Fri, 16 Mar 2018 15:31:02 +0200</pubDate>
+      
+      <guid>https://ruonakoski.fi/en/posts/meanwhile/</guid>
+      <description>While this site is under development, please check my GitHub profile at https://github.com/anttiruonakoski</description>
+    </item>
+    
+    <item>
+      <title>Hello WORDL!</title>
+      <link>https://ruonakoski.fi/en/posts/hello/</link>
+      <pubDate>Mon, 11 Dec 2017 16:18:44 +0200</pubDate>
+      
+      <guid>https://ruonakoski.fi/en/posts/hello/</guid>
+      <description>It&amp;rsquo;s dakr outside.</description>
+    </item>
+    
+  </channel>
+</rss>

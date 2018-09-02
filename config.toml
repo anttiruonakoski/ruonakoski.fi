@@ -1,9 +1,22 @@
 baseURL = "https://ruonakoski.fi/"
 
-
+DefaultContentLanguage = "fi"
 languageCode = "FI-fi"
 title = "Antti Ruonakoski"
 theme = "hyde"
 
+[languages]
+  [languages.fi]
+	contentDir = "content/finnish"
+    title = "Antti Ruonakoski"
+    description = "full stack -ohjelmoija GIS-nörtti lintumies"
+    weight = 1
+  [languages.en]
+  	contentDir = "content/english"
+    title = "Antti Ruonakoski"
+    description = "birder full stack hobbyist geo nerd OSM contributor"
+    weight = 2
+
 [params]
-  themeColor = "theme-base-0b"
+ themeColor = "theme-base-0b"
+
