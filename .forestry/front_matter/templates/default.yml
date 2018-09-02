@@ -1,7 +1,7 @@
 ---
-pages:
-- posts/posti_2.md
+label: default
 hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
