@@ -1,2 +1,5 @@
 [home]
 other = "Alkuun"
+
+[date]
+other = "julkaistu {{ .Date.Format \"2.1.2006\" }}"

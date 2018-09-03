@@ -1,2 +1,5 @@
 [home]
 other = "Home"
+
+[date]
+other = "{{ .Date.Format \"Mon, Jan 2, 2006\" }}"
