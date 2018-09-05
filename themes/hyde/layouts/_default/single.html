@@ -2,9 +2,16 @@
 <div class="post">
   <h1>{{ .Title }}</h1>
   <span class="post-date">{{ i18n "date" . }}</span>
+  {{ with .Params.topics }}
+  <ul class="topics">{{ i18n "Topics" }}
+    {{ range . }}
+    	&nbsp;|&nbsp;
+    	<li><a href="{{ "topics/" | absURL}}{{ . | urlize }}">{{ . }}</a></li>
+    {{ end }}
+  </ul>
+  {{ end }}
   {{ .Content }}
 </div>
-
 {{ if and (.Params.comments) (.Site.DisqusShortname) -}}
 <h2>{{ i18n "Comments" }}</h2>
 {{ template "_internal/disqus.html" . }}

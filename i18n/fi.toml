@@ -7,3 +7,5 @@ other = "julkaistu {{ .Date.Format \"2.1.2006\" }}"
 other = "Lue lisää"
 [Comments]
 other = "Kommentointi"
+[Topics]
+other = "Aiheet"
