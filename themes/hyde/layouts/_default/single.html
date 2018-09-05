@@ -5,7 +5,7 @@
   {{ .Content }}
 </div>
 
-{{ if .Site.DisqusShortname -}}
+{{ if and (.Params.comments) (.Site.DisqusShortname) -}}
 <h2>{{ i18n "Comments" }}</h2>
 {{ template "_internal/disqus.html" . }}
 {{- end }}
