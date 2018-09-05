@@ -1,5 +1,8 @@
-[home]
-other = "Home"
+[languagehome]
+other = "In Finnish"
 
 [date]
 other = "{{ .Date.Format \"Mon, Jan 2, 2006\" }}"
+
+[ReadMore]
+other = "Read more"

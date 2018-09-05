@@ -1,5 +1,9 @@
-[home]
-other = "Alkuun"
-
+#i18n/fi.toml
+[languagehome]
+other = "In English"
 [date]
 other = "julkaistu {{ .Date.Format \"2.1.2006\" }}"
+[ReadMore]
+other = "Lue lisää"
+[Comments]
+other = "Kommentointi"
