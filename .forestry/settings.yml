@@ -1,7 +1,7 @@
 ---
 new_page_extension: md
 auto_deploy: false
-admin_path: 
+admin_path: ''
 webhook_url: 
 sections:
 - type: directory
@@ -25,4 +25,4 @@ build:
   - HUGO_VERSION=0.47.1
   preview_output_directory: public
   output_directory: public
-version: 0.47.1
+version: '0.53'
