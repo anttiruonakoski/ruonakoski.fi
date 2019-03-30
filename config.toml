@@ -6,19 +6,23 @@ title = "Antti Ruonakoski"
 theme = "hyde"
 
 disqusShortname = "ruonakoski"
+disqus_title = ""
+disqus_identifier = ""
 
 [languages]
   [languages.fi]
 	contentDir = "content/fi"
     title = "Antti Ruonakoski"
-    description = "lintumies full stack-ohjelmoija GIS-nörtti"
+    description = "lintumies full stack web-kehittäjä GIS-nörtti"
     weight = 0
   [languages.en]
   	contentDir = "content/en"
     title = "Antti Ruonakoski"
-    description = "birder full stack hobbyist geo nerd OSM contributor"
+    description = "birder full stack web developer geo nerd OSM contributor"
     weight = 1
 
 [params]
- themeColor = "theme-base-0b"
+  themeColor = "theme-base-0b"
 
+[taxonomies]
+  topic = "topics"
